@@ -1,0 +1,23 @@
+.slider{
+	width: 384px;
+	height: 132px;
+	border: 5px solid black;
+	margin: 50px auto;
+    overflow: hidden;
+}
+
+.slider_img{
+	width: 920px;
+	position: relative;
+	transition: all ease 1s;
+	left: 0;
+}
+.slider_img{
+	float: left;
+}
+.slider_img::after{
+ content: " ";
+ display: block;
+ clear: both;
+
+}
